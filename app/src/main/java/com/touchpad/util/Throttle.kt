@@ -1,4 +1,4 @@
-package com.example.touchpad.util
+package com.touchpad.util
 
 import android.os.SystemClock
 

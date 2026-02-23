@@ -1,4 +1,4 @@
-package com.example.touchpad.ui
+package com.touchpad.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,7 +17,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
-import com.example.touchpad.hid.HidManager
+import com.touchpad.hid.HidManager
 
 private val keyUsageMap = mapOf(
     'a' to 0x04,
