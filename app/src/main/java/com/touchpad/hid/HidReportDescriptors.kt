@@ -1,4 +1,4 @@
-package com.example.touchpad.hid
+package com.touchpad.hid
 
 object HidReportDescriptors {
     const val REPORT_ID_MOUSE = 1

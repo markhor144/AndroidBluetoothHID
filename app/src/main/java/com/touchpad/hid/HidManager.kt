@@ -1,4 +1,4 @@
-package com.example.touchpad.hid
+package com.touchpad.hid
 
 import android.Manifest
 import android.bluetooth.BluetoothAdapter
@@ -14,7 +14,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.core.content.ContextCompat
-import com.example.touchpad.util.Throttle
+import com.touchpad.util.Throttle
 import java.util.concurrent.Executor
 
 enum class HidConnectionState {

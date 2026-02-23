@@ -1,4 +1,4 @@
-package com.example.touchpad.ui
+package com.touchpad.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
@@ -22,7 +22,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.example.touchpad.hid.HidManager
+import com.touchpad.hid.HidManager
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
